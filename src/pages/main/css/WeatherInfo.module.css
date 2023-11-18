@@ -1,0 +1,57 @@
+@font-face { 
+    font-family: "The Jamsil"; 
+    src: url("../../font/The\ Jamsil\ 5\ Bold.ttf"); 
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'The Jamsil';
+}
+
+.toptitle {
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+    font-weight: bold;
+}
+
+.temp img {
+    display: inline-block;
+    height: 20px;
+}
+
+.threeinfo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.threeinfo :last-child {
+    border-right: none;
+}
+
+.specinfo {
+    border-right: 2px solid black;
+}
+
+.specinfo img {
+    display: inline-block;
+}
+
+.specinfo p {
+    text-align: center;
+}
+
+.specinfocon {
+    margin: 0 auto;
+}
+
+.spectitle {
+    text-align: center;
+    margin: 10px auto;
+}

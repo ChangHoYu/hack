@@ -1,0 +1,27 @@
+.container {
+    padding-top: 4vh;
+}
+
+.loginbox {
+    margin: 10% auto;
+}
+
+.inputlabel {
+    display: block;
+    text-align: center;
+}
+
+.inputbox {
+    display: block;
+    margin: 5% auto;
+    width: 80%;
+    height: 50px;
+}
+
+.btn {
+    display: block;
+    margin: 5% auto;
+    width: 60%;
+    height: 50px;
+    
+}

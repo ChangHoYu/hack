@@ -1,0 +1,64 @@
+@media (min-width: 320px) and (max-width: 560px) {
+@font-face { 
+  font-family: "The Jamsil"; 
+  src: url("../../font/The\ Jamsil\ 5\ Bold.ttf"); 
+}
+
+.all {
+  background-color: rgba(245, 245, 245, 1);
+  height: 83vh;
+}
+
+  .all-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 1);
+    padding-bottom: 15vh;
+    font-family: "The Jamsil"; 
+  }
+
+  .category-menu {
+    margin-top: 5%;
+    width: 100%;
+    height: 100px;
+    padding: 3% 0%;
+    background-color: white;
+  }
+
+  .category-list {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5%;
+    row-gap: 10%;
+    width: 88%;
+    height: 100%;
+  }
+
+  .category-menu button {
+    margin: auto;
+    background-color: white;
+    cursor: pointer;
+    font-size: 4vw;
+    font-weight: 500;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    font-family: "The Jamsil";
+    src: url("./The Jamsil 5 Bold.ttf");
+  }
+
+  .category-menu button.selected {
+    background-color: rgba(18, 83, 141, 1);
+    color: white;
+  }
+
+  .category-content {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}

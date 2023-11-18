@@ -1,0 +1,71 @@
+@font-face { 
+    font-family: "The Jamsil"; 
+    src: url("../../font/The\ Jamsil\ 5\ Bold.ttf"); 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto ; 
+}
+
+.container :last-child {
+    margin-bottom: 25%;
+}
+
+.contentbox {
+    display: flex;
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5% auto ; 
+    border: none;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #12538D;
+}
+
+.textbox {
+    text-decoration: none;
+    flex: 2;    
+}
+
+.title {
+    margin: 15px auto;
+    width: 90%;
+    background-color: #12538D;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.intro {
+    margin-top: 20%;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "The Jamsil"; 
+}
+
+.contentbox img {
+    flex: 1.5;
+    width: 25%;
+    height: 80%;
+    border-radius: 15px;
+    
+}
+
+.loginbtn {
+    width: 90%;
+    height: 100px;
+    margin: 10% auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.pic {
+    display: block;
+    margin: 10px auto;;
+}

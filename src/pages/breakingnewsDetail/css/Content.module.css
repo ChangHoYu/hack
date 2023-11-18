@@ -1,0 +1,102 @@
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-top: 0;
+    padding: 10px;
+}
+.region {
+    text-align: center;
+}
+
+.region h4{
+    margin-top: 0;
+}
+
+.region2 {
+    color: grey;
+    border-bottom: 2px solid black ;
+}
+
+.region2 p {
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    margin: 5px 0;
+}
+
+.swipercon {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-bottom: 2px solid black;
+}
+
+.swiper {
+    width: 100%;
+    height: 150px;
+}
+
+.swiperslide {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 200px !important;
+}
+
+.swiperslide img {
+    margin: 5% auto;
+    width: 80%;
+    height: 80%;
+}
+
+.contentimg {
+    border-radius: 15px;
+}
+
+.text {
+    padding: 5%;
+    border-bottom: 2px solid black;
+}
+
+.writebtn {
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(228, 223, 223, 0.7);
+    position: fixed;
+    display: block;
+    left: 25%;
+    bottom: 15%;
+}
+
+.commentline {
+    border-bottom: 2px solid black;
+}
+
+.comment {
+    border-bottom: 2px solid black;
+}
+
+.commentid {
+    margin: 10px auto;
+}
+
+.commentcontent {
+    width: 100%;
+    white-space: pre-line;
+    margin: 10px auto;
+    margin-left: 10px;
+    font-size: small;
+}

@@ -1,0 +1,34 @@
+@font-face { 
+    font-family: "The Jamsil"; 
+    src: url("../../font/The\ Jamsil\ 5\ Bold.ttf"); 
+}
+
+.container {
+    position: relative;
+    background-color: #d2e4fe;
+    height: 100%;
+    padding-bottom: 15vh;
+    padding-top: 1vh;
+}
+
+.writebtn {
+    display: block;
+    position: fixed;
+    bottom: 12vh;
+    left: 0;
+    right: 0;
+    width: 20vh;
+    height: 5vh;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(228, 223, 223, 0.7);
+    text-decoration: none;
+    color: black;
+    font-family: "The Jamsil"; 
+}
+
+.writebtn p {
+    margin: 1vh auto;
+    text-align: center;
+}

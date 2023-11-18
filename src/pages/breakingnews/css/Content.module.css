@@ -1,0 +1,65 @@
+.container {
+    position: relative;
+    top: 30px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+}
+
+.intro {
+    flex: 2;
+    margin: 0 10px;
+}
+
+.region {
+    height: 40%;
+    
+}
+
+
+.region h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.regiontime {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.regioninfo {
+    flex: 1;
+}
+
+.timeinfo{
+    position: relative;
+    flex: 2.5;
+    left: 100px;
+}
+
+.intro h5 {
+    margin: 15px 0;
+    margin-left: 15px;
+    text-align: left;
+
+}
+.intro p {
+    margin: 5px 0px;
+    margin-left: 15px;
+    font-size: small;
+}
+.pic {
+    flex: 1.5;
+    height: 200px;
+    margin: auto 10px;
+}
+.pic img {
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}

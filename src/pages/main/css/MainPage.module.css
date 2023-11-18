@@ -1,0 +1,33 @@
+@media (min-width: 320px) and (max-width: 500px) {
+    .container {
+        background-color: #c7dcfc;
+        padding-bottom: 15vh;
+        padding-top: 3vh;
+    }
+    
+    .top {
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        background-color: #12538D;
+    }
+
+    .info {
+        display: flex;
+        height: 80%;
+    }
+    
+    .logo {
+        flex: 1;
+        height: 100%;
+    }
+    
+    .logo img {
+        width: 70%;
+        height: 80%;
+        display: block;
+        margin: 5% auto;
+    }
+    
+}
+

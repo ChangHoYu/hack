@@ -1,0 +1,74 @@
+@media (min-width: 320px) and (max-width: 560px) {
+.landingpage {
+width: 100vw;
+height: 83vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search_categories {
+    position: absolute;
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(18, 83, 141);
+}
+
+.searchform_container {
+    background-color: rgb(18, 83, 141);
+    top: 6px;
+    position: relative;
+}
+.search_form {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 19px;
+    width: 88%;
+    height: 51px;
+}
+
+.form_input {
+    width: 80%;
+    height: 35px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn_search {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    color: rgba(146, 151, 158, 1);
+    position: absolute;
+    top: 10px;
+    right: 8%;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.button_list {
+    position: relative;
+    top: 2vh;
+}
+.btn_categories{
+    font-size: small;
+    background-color: rgb(18, 83, 141);
+    color: white;
+    text-align: center;
+    border: none;
+    margin: 0px 3%;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.showmap_container{
+    position: absolute;
+    position: relative; /* Ensure positioning context */
+    z-index: 0;
+}
+}
